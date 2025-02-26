@@ -1,12 +1,12 @@
 # Generate-Queries
-# **📘 AI PDF Summarizer & Q&A Generator**  
+# **PDF Summarizer & Q&A Generator**  
 🔹 **Extract Extractive & Abstractive Summaries** from research papers  
 🔹 **Generate Key Queries & Answers** using NLP & Transformers  
 🔹 **Process PDFs Automatically & Save Results as JSON**  
 
 ---
 
-## **📌 Features**  
+## **Features**  
 ✔ **Download PDFs** from URLs  
 ✔ **Extract Text** from PDFs  
 ✔ **Generate Extractive Summaries** (TextRank)  
@@ -24,7 +24,7 @@ git clone https://github.com/your-username/AI-PDF-Summarizer.git
 cd AI-PDF-Summarizer
 ```
 
-### **🔹 Install Dependencies**  
+### **Install Dependencies**  
 ```bash
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
@@ -32,7 +32,7 @@ python -m spacy download en_core_web_sm
 
 ---
 
-## **🚀 Usage**  
+## **Usage**  
 
 ### **1️⃣ Download PDF from URL**  
 ```python
@@ -64,7 +64,7 @@ Q&A results are saved automatically in `qa_pairs.json`.
 
 ---
 
-## **📝 Example Output**  
+## **Example Output**  
 ```json
 {
   "question": "What are the ethical concerns of AI?",
@@ -74,9 +74,9 @@ Q&A results are saved automatically in `qa_pairs.json`.
 
 ---
 
-## **📌 File Structure**
+## **File Structure**
 ```
-📂 AI-PDF-Summarizer
+📂 PDF-Summarizer
 ├── 📜 README.md
 ├── 📜 requirements.txt
 ├── 📄 download_pdf.py
@@ -92,29 +92,8 @@ Q&A results are saved automatically in `qa_pairs.json`.
 
 ---
 
-## **🤝 Contributing**
-1. **Fork** the repository  
-2. **Clone** your fork  
-   ```bash
-   git clone https://github.com/your-username/AI-PDF-Summarizer.git
-   ```
-3. **Create a new branch**  
-   ```bash
-   git checkout -b feature-branch
-   ```
-4. **Make changes & commit**  
-   ```bash
-   git commit -m "Added new feature"
-   ```
-5. **Push to GitHub**  
-   ```bash
-   git push origin feature-branch
-   ```
-6. **Create a Pull Request (PR)**  
 
----
-
-## **📜 License**
+## **License**
 This project is licensed under the **MIT License**.  
 
 ---
